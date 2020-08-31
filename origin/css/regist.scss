@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+ 
+.header {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    .header-warp {
+        width: 1000px;
+        height: 100px;
+        margin: 0 auto;
+        .logolink {  
+        background-image: url(../images/icon.png);
+        background-position: -308px -57px;
+        width: 125px;
+        height: 100px;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 500px;
+        overflow: hidden;
+        }
+        .service {
+            background-image: url(../images/icon.png);
+            background-position: 0 0;
+            width: 304px;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+        }
+        }
+    }
+    .content {
+        width: 100%;
+        height: 650px;
+       .content-warp {
+        width:100%;
+        height: 650px;
+        background-image: url(../images/banner.jpg);
+        background-position: top center;
+        .content-regist {
+            position: relative;
+            margin: 0 auto;
+            padding: 50px 20px;
+            min-height: 550px;
+            width: 1000px;
+            .regist {
+                width: 360px;
+                height: 350px;
+                border-radius: 2px;
+                background-color: #fff;
+                float: right;
+                position: absolute;
+                top: 50p;
+                right: 20px;
+                z-index: 2; 
+                .regist-top {
+                    width: 300px;
+                    height: 50px;
+                    padding: 0 30px;
+                    border-bottom: 1px solid #e0e0e0;
+                    h2 {
+                        float: left;
+                        font-size: 18px;
+                        color: #666;
+                        line-height: 50px;
+                        font-weight: 700;
+                    } 
+                    p {
+                        font-size: 14px;
+                        line-height: 50px;
+                        float: right;
+                        a {
+                            color: #f10180;
+                            cursor: pointer;
+                        }
+                    }
+                } 
+                .regist-body {
+                    width: 300px;
+                    padding: 30px;
+                    .username {
+                         width: 300px;
+                         height: 46px;
+                         position: relative;
+                         margin-bottom: 40px;
+                         #username {
+                            width: 260px;
+                            height: 46px;
+                            border-radius: 2px;
+                            padding-left: 40px;
+                            border: 1px solid #ec5042;
+                            line-height: 46px;
+                            text-align: left;
+                            font-size: 14px;
+                            color: #333;
+                         }
+                         .icon {
+                            position: absolute;
+                            top: 13px;
+                            left: 11px;
+                            z-index: 1;
+                            background-image: url(../images/icon.png);
+                            background-position: -456px -221px;
+                            width: 20px;
+                            height: 20px;
+                         }
+                         #usernameTips {
+                            font-size: 12px;
+                            color: #999;
+                        }
+                    }
+                    .password {
+                        width: 300px;
+                        height: 46px;
+                        position: relative;
+                        margin-bottom: 40px;
+                        #password {
+                           width: 260px;
+                           height: 46px;
+                           border-radius: 2px;
+                           padding-left: 40px;
+                           border: 1px solid #ec5042;
+                           line-height: 46px;
+                           text-align: left;
+                           font-size: 14px;
+                            color: #333;
+                        }
+                        .icon {
+                            position: absolute;
+                            top: 13px;
+                            left: 11px;
+                            z-index: 1;
+                           background-image: url(../images/icon.png);
+                           background-position: -528px -221px;
+                           width: 20px;
+                           height: 20px;
+                        }
+                        #passwordTips {
+                            font-size: 12px;
+                            color: #999;
+                        }
+                   }
+                   .submitBtn {
+                    width: 300px;
+                    height: 46px;
+                    #submitBtn {
+                       width:300px;
+                       height: 46px;
+                       border-radius: 3px;
+                       background-color: #f10180;
+                       border: 1px solid #f10180;
+                       line-height: 32px;
+                       font-size: 18px;
+                       color: #fff;
+                       display: inline-block;
+                       border-radius: 3px;
+                       text-decoration: none;
+                       text-align: center;
+                       vertical-align: top;
+                    }
+               }
+                }
+               
+            }
+        } 
+       }
+    }
+
+.footer {
+    width: 1000px;
+    height: 78px;
+    margin: 0 auto;
+    p {
+        color: #666;
+        font-size: 12px;
+        line-height: 78px;
+        text-align: center;
+    }
+}    
